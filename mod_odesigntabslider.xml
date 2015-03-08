@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.0.10"
+	method="upgrade"
+	client="site">
+	<name>oDesign Tab Slider</name>
+	<author>oDesign</author>
+	<creationDate>January 2015</creationDate>
+	<authorEmail>odesignbd@gmail.com</authorEmail>
+	<authorUrl>https://github.com/odesignbd/mod_odesigntabslider</authorUrl>
+	<copyright>Copyright © 2015 oDesign. All rights reserved.</copyright>
+	<license>GNU General Public License v2.0</license>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[
+		<h3>A Super Responsive Tab Slider</h3>
+		<p style="color:#555;margin-bottom:30px;font-weight:bold;">Using jQuery Framework and Brought to You By <a href="https://github.com/odesignbd" target="_blank"><img style="width:62px;height:25px;border:2px solid #08c;border-radius:3px;" src="http://novaendocenter.com/layouts/layouts/system/samples/odesign/images/oDesign.png" alt="oDesign" /></a> IT Solution.</p>
+	]]>
+	</description>
+	<files>
+		<filename module="mod_odesigntabslider">mod_odesigntabslider.php</filename>
+		<filename module="mod_odesigntabslider">mod_odesigntabslider.xml</filename>
+		<filename module="mod_odesigntabslider">index.html</filename>
+		<folder module="mod_odesigntabslider">tmpl</folder>
+		<folder module="mod_odesigntabslider">languages</folder>
+	</files>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.mod_odesigntabslider.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+				<field type="spacer" name="myspacer1" label="SLIDE_01" />
+				<field
+					name="file1"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link1"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading1"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc1"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer2" hr="true" />
+				<field type="spacer" name="myspacer3" label="SLIDE_02" />
+				<field
+					name="file2"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link2"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading2"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc2"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer4" hr="true" />
+				<field type="spacer" name="myspacer5" label="SLIDE_03" />
+				<field
+					name="file3"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link3"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading3"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc3"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer6" hr="true" />
+				<field type="spacer" name="myspacer7" label="SLIDE_04" />
+				<field
+					name="file4"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link4"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading4"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc4"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer8" hr="true" />
+				<field type="spacer" name="myspacer9" label="SLIDE_05" />
+				<field
+					name="file5"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link5"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading5"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc5"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer10" hr="true" />
+				<field type="spacer" name="myspacer11" label="SLIDE_06" />
+				<field
+					name="file6"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link6"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading6"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc6"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer12" hr="true" />
+				<field type="spacer" name="myspacer13" label="SLIDE_07" />
+				<field
+					name="file7"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link7"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading7"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc7"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer14" hr="true" />
+				<field type="spacer" name="myspace15" label="SLIDE_08" />
+				<field
+					name="file8"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link8"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading8"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc8"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer16" hr="true" />
+				<field type="spacer" name="myspacer17" label="SLIDE_09" />
+				<field
+					name="file9"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link9"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading9"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc9"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer18" hr="true" />
+				<field type="spacer" name="myspacer19" label="SLIDE_10" />
+				<field
+					name="file10"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link10"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading10"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc10"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />		
+				<field type="spacer" name="myspacer20" hr="true" />
+				<field type="spacer" name="myspacer21" label="SLIDE_11" />
+				<field
+					name="file11"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link11"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading11"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc11"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer22" hr="true" />
+				<field type="spacer" name="myspacer23" label="SLIDE_12" />
+				<field
+					name="file12"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link12"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading12"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc12"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer24" hr="true" />
+				<field type="spacer" name="myspacer25" label="SLIDE_13" />
+				<field
+					name="file13"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link13"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading13"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc13"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer26" hr="true" />
+				<field type="spacer" name="myspacer27" label="SLIDE_14" />
+				<field
+					name="file14"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link14"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading14"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc14"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer28" hr="true" />
+				<field type="spacer" name="myspacer29" label="SLIDE_15" />
+				<field
+					name="file15"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link15"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading15"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc15"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer30" hr="true" />
+				<field type="spacer" name="myspacer31" label="SLIDE_16" />
+				<field
+					name="file16"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link16"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading16"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc16"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer32" hr="true" />
+				<field type="spacer" name="myspacer33" label="SLIDE_17" />
+				<field
+					name="file17"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link17"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading17"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc17"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer34" hr="true" />
+				<field type="spacer" name="myspace35" label="SLIDE_18" />
+				<field
+					name="file18"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link18"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading18"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc18"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer36" hr="true" />
+				<field type="spacer" name="myspacer37" label="SLIDE_19" />
+				<field
+					name="file19"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link19"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading19"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc19"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+				<field type="spacer" name="myspacer38" hr="true" />
+				<field type="spacer" name="myspacer39" label="SLIDE_20" />
+				<field
+					name="file20"
+					type="media"
+					value=""
+					default=""
+					label="Upload Image"
+					description="Upload an image from media or any device" />
+				<field
+					name="link20"
+					type="text"
+					hint="http://"
+					default=""
+					label="Link"
+					description="Set an image link" />
+				<field
+					name="cap_heading20"
+					type="text"
+					hint="Heading"
+					default=""
+					label="Caption Heading"
+					description="Enter a Caption Heading" />
+				<field
+					name="cap_desc20"
+					type="textarea"
+					rows="6"
+					hint="Description"
+					filter="safehtml"
+					default=""
+					label="Caption Description"
+					description="Enter a Caption Description (You can use plain text or HTML)" />
+			</fieldset>
+			
+			<fieldset name="Slider_Option">
+				
+				<field
+					name="target"
+					type="list"
+					default="_blank"
+					label="Link Target"
+					description="Set link target _parent or _blank">
+						<option value="_parent">JBROWSERTARGET_PARENT</option>
+						<option value="_blank">JBROWSERTARGET_NEW</option>
+				</field>
+				<field
+					name="autoplay"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					true="1"
+					false="0"
+					default="1"
+					label="Autoplay"
+					description="Autoplay">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field
+					name="Pause_on_hover"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="3"
+					label="Pause On MouseOver"
+					description="Pause On MouseOver">
+						<option value="3">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field
+					name="keyboard_nav"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					true="1"
+					false="0"
+					default="1"
+					label="Keyboard Navigation"
+					description="Enable or Disable Keyboard Navigation">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field
+					name="disable_tab_mb"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="752"
+					label="Disable Tab in Mobile"
+					description="You can Disable Tab Bar in Mobile Device">
+						<option value="752">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field
+					name="slide_direction"
+					type="list"
+					class="chzn-single"
+					default="1"
+					label="Slide Direction"
+					description="Set Slide Direction">
+						<option value="1">Horizental</option>
+						<option value="2">Vertical</option>
+						<option value="5">Horizental Reverse</option>
+						<option value="6">Vertical Reverse</option>
+				</field>
+				
+				<field
+					name="drag_orientation"
+					type="list"
+					class="chzn-single"
+					default="1"
+					label="Slide Drag Orientation"
+					description="Set Slide Drag Orientation">
+						<option value="1">Horizental</option>
+						<option value="2">Vertical</option>
+						<option value="3">Both</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field
+					name="autoplay_steps"
+					type="list"
+					class="chzn-single"
+					default="1"
+					label="Autoplay Steps"
+					description="Set Autoplay Steps">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+				</field>
+				
+				<field
+					name="slider_bg_color"
+					type="color"
+					default="#00a3ee"
+					label="Slider Background Color"
+					description="Set Slider Background Color" />
+				
+				<field
+					name="slide_interval"
+					type="text"
+					hint="3000"
+					default="3000"
+					label="Slide Interval"
+					description="Set a Slide Interval in Milliseconds" />
+				
+				<field
+					name="trans_speed"
+					type="text"
+					hint="500"
+					default="500"
+					label="Transition Speed"
+					description="Set a Transition Speed in Milliseconds" />
+				
+				<field
+					name="full_container_width"
+					type="text"
+					hint="1352"
+					default="1352"
+					label="Full Container Width"
+					description="Set Full Container Width (Example: 1352 / Don't need to use PX)" />
+				
+				<field
+					name="full_container_height"
+					type="text"
+					hint="504"
+					default="504"
+					label="Full Container Height"
+					description="Set Full Container Height (Example: 504 / Don't need to use PX)" />
+					
+				<field
+					name="slide_width"
+					type="text"
+					hint="1052"
+					default="1052"
+					label="Slide Block Width"
+					description="Set Slide Block Width (Example: 1100 / Don't need to use PX)" />
+				
+				<field
+					name="tab_width"
+					type="text"
+					hint="300"
+					default="300"
+					label="Tab Block Width"
+					description="Set Tab Block Width (Example: 300 / Don't need to use PX)" />
+					
+			</fieldset>
+			
+			<fieldset name="Tab_Option">
+				
+				<field
+					name="tab_status"
+					type="list"
+					class="chzn-single"
+					default="2"
+					label="Tab Status"
+					description="Set Tab Status">
+						<option value="2">Show</option>
+						<option value="1">Show On MouseOver</option>
+						<option value="0">Hide</option>
+				</field>
+				
+				<field
+					name="tab_count"
+					type="list"
+					class="chzn-single"
+					default="5"
+					label="Tab Count"
+					description="Tab Count">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+				</field>
+				
+				<field
+					name="tab_spacing_X"
+					type="list"
+					class="chzn-single"
+					default="5"
+					label="Tab Spacing Horizental"
+					description="Set Tab Spacing Horizental">
+						<option value="0">None</option>
+						<option value="1">1px</option>
+						<option value="2">2px</option>
+						<option value="3">3px</option>
+						<option value="4">4px</option>
+						<option value="5">5px</option>
+						<option value="6">6px</option>
+						<option value="7">7px</option>
+						<option value="8">8px</option>
+						<option value="9">9px</option>
+						<option value="10">10px</option>
+						<option value="11">11px</option>
+						<option value="12">12px</option>
+						<option value="13">13px</option>
+						<option value="14">14px</option>
+						<option value="15">15px</option>
+						<option value="16">16px</option>
+						<option value="17">17px</option>
+						<option value="18">18px</option>
+						<option value="19">19px</option>
+						<option value="20">20px</option>
+						<option value="21">21px</option>
+						<option value="22">22px</option>
+						<option value="23">23px</option>
+						<option value="24">24px</option>
+						<option value="25">25px</option>
+						<option value="26">26px</option>
+						<option value="27">27px</option>
+						<option value="28">28px</option>
+						<option value="29">29px</option>
+						<option value="30">30px</option>
+				</field>
+				
+				<field
+					name="tab_spacing_Y"
+					type="list"
+					class="chzn-single"
+					default="1"
+					label="Tab Spacing Vertical"
+					description="Set Tab Spacing Vertical">
+						<option value="0">None</option>
+						<option value="1">1px</option>
+						<option value="2">2px</option>
+						<option value="3">3px</option>
+						<option value="4">4px</option>
+						<option value="5">5px</option>
+						<option value="6">6px</option>
+						<option value="7">7px</option>
+						<option value="8">8px</option>
+						<option value="9">9px</option>
+						<option value="10">10px</option>
+						<option value="11">11px</option>
+						<option value="12">12px</option>
+						<option value="13">13px</option>
+						<option value="14">14px</option>
+						<option value="15">15px</option>
+						<option value="16">16px</option>
+						<option value="17">17px</option>
+						<option value="18">18px</option>
+						<option value="19">19px</option>
+						<option value="20">20px</option>
+						<option value="21">21px</option>
+						<option value="22">22px</option>
+						<option value="23">23px</option>
+						<option value="24">24px</option>
+						<option value="25">25px</option>
+						<option value="26">26px</option>
+						<option value="27">27px</option>
+						<option value="28">28px</option>
+						<option value="29">29px</option>
+						<option value="30">30px</option>
+				</field>
+				
+				<field
+					name="tab_loop"
+					type="list"
+					class="chzn-single"
+					default="1"
+					label="Tab Looping"
+					description="Set Tab Looping">
+						<option value="1">Loop</option>
+						<option value="2">Rewind</option>
+						<option value="0">Stop</option>
+				</field>
+				
+				<field
+					name="tab_orientation"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="2"
+					label="Tab Orientation"
+					description="Set Tab Orientation">
+						<option value="2">Vertical</option>
+						<option value="1">Horizental</option>
+				</field>
+				
+				
+				<field
+					name="tab_orientation_LR"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="2"
+					label="Tab Orientation Horizental"
+					description="Set Horizental Tab Orientation Left/Right">
+						<option value="2">Right</option>
+						<option value="1">Left</option>
+				</field>
+				
+				<field
+					name="disable_drag"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					true="1"
+					false="0"
+					default="0"
+					label="Tab Drag Disable"
+					description="Tab Drag Disable">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field
+					name="tab_color"
+					type="color"
+					default="#006eeb"
+					label="Tab Color"
+					description="Set Tab Color" />
+				
+				<field
+					name="tab_color_active"
+					type="color"
+					default="#6500c9"
+					label="Tab Color Active"
+					description="Set Tab Color Active" />
+				
+				<field
+					name="tab_color_hover"
+					type="color"
+					default="#00a3ee"
+					label="Tab Color Hover"
+					description="Set Tab Color Hover" />
+				
+				<field
+					name="heading_color"
+					type="color"
+					default="#FFFFFF"
+					label="Tab Heading Font Color"
+					description="Set Tab Heading Font Color" />
+				
+				<field
+					name="desc_color"
+					type="color"
+					default="#FFFFFF"
+					label="Tab Desc Font Color"
+					description="Set Tab Desc Font Color" />
+				
+				<field
+					name="heading_fontsize"
+					type="text"
+					hint="15"
+					default="15"
+					label="Tab Heading Font Size"
+					description="Set Tab Heading Font Size (Example: 13 / Don't need to use PX)" />
+				
+				<field
+					name="desc_fontsize"
+					type="text"
+					hint="11"
+					default="12"
+					label="Tab Desc Font Size"
+					description="Set Tab Desc Font Size (Example: 13 / Don't need to use PX)" />
+				
+				<field
+					name="heading_textalign"
+					type="list"
+					default="left"
+					label="Tab Heading Text Align"
+					description="Set Tab Heading Text Alignment">
+						<option value="center">Center</option>
+						<option value="justify">Justify</option>
+						<option value="left">Left</option>
+						<option value="right">Right</option>
+				</field>
+				
+				<field
+					name="desc_textalign"
+					type="list"
+					default="justify"
+					label="Tab Desc Text Align"
+					description="Set Tab Desc Text Alignment">
+						<option value="center">Center</option>
+						<option value="justify">Justify</option>
+						<option value="left">Left</option>
+						<option value="right">Right</option>
+				</field>
+				
+			</fieldset>
+			
+			<fieldset name="LightBox_Option">
+				
+				<field
+					name="lbox_maxwidth"
+					type="text"
+					hint="1200"
+					default="1200"
+					label="Max Width"
+					description="Set Max Width (Example: 1200 / Don't need to use PX)" />
+				
+				<field
+					name="lbox_maxheight"
+					type="text"
+					hint="650"
+					default="650"
+					label="Max Height"
+					description="Set Max Heighth (Example: 650 / Don't need to use PX)" />
+				
+				<field
+					name="lbox_padding"
+					type="text"
+					hint="15"
+					default="15"
+					label="Padding"
+					description="Set Padding (Example: 15 / Don't need to use PX)" />
+				
+				<field
+					name="lbox_prevnextSpeed"
+					type="text"
+					hint="500"
+					default="500"
+					label="Prev/Next Speed"
+					description="Set Prev/Next Speed in Milliseconds" />
+				
+				<field
+					name="lbox_opencloseSpeed"
+					type="text"
+					hint="500"
+					default="500"
+					label="Open/Close Speed"
+					description="Set Open/Close Speed in Milliseconds" />
+				
+				<field
+					name="lbox_prevnextEffect"
+					type="list"
+					class="chzn-single"
+					default="elastic"
+					label="Prev/Next Effect"
+					description="Set Prev/Next Effect">
+						<option value="elastic">Elastic</option>
+						<option value="fade">Fade</option>
+				</field>
+				
+				<field
+					name="lbox_opencloseEffect"
+					type="list"
+					class="chzn-single"
+					default="elastic"
+					label="Open/Close Effect"
+					description="Set Open/Close Effect">
+						<option value="elastic">Elastic</option>
+						<option value="fade">Fade</option>
+				</field>
+				
+				<field
+					name="lbox_capposition"
+					type="list"
+					class="chzn-single"
+					default="over"
+					label="Caption Position"
+					description="Set Caption Position">
+						<option value="over">Over</option>
+						<option value="inside">Inside</option>
+						<option value="outside">Outside</option>
+				</field>
+				
+				<field
+					name="lbox_capbgopacity"
+					type="list"
+					class="chzn-single"
+					default="0.8"
+					label="Caption BG Opacity"
+					description="Set Caption Background Opacity">
+						<option value="0.1">1</option>
+						<option value="0.2">2</option>
+						<option value="0.3">3</option>
+						<option value="0.4">4</option>
+						<option value="0.5">5</option>
+						<option value="0.6">6</option>
+						<option value="0.7">7</option>
+						<option value="0.8">8</option>
+						<option value="0.9">9</option>
+						<option value="1">10</option>
+				</field>
+				
+				<field
+					name="lbox_closeonclick"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					true="1"
+					false="0"
+					default="1"
+					label="Enable Close Click"
+					description="Enable Close Click">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>
+					
+				<field
+					name="lbox_showclosebtn"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					true="1"
+					false="0"
+					default="1"
+					label="Show Close Button"
+					description="Show Close Button">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>
+				
+				<field
+					name="lbox_showarrows"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					true="1"
+					false="0"
+					default="1"
+					label="Show Arrows"
+					description="Show Arrows">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+				</field>
+
+			</fieldset>
+
+			<fieldset name="advanced">
+					
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+						<option value="1">JGLOBAL_USE_GLOBAL</option>
+						<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+					
+			</fieldset>
+		</fields>
+	</config> 
+</extension>
